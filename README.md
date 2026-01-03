@@ -11,36 +11,36 @@ The objective of this analysis is to:
 
 ## Dataset
 
-	•	Source: Kaggle – Marketing A/B Testing Dataset
+	•	Source: Kaggle (Marketing A/B Testing Dataset)
 	•	Observations: 588,101 users
 	•	Groups:
-	•	ad (treatment): 564,577 users
-	•	psa (control): 23,524 users
+		•	ad (treatment): 564,577 users
+		•	psa (control): 23,524 users
 	•	Key Variable:
-	•	converted: Binary indicator of conversion (True/False)
+		•	converted: Binary indicator of conversion (True/False)
 
 ## Methodology
 
 The analysis follows a standard A/B testing framework:
 	1.	Exploratory Data Analysis
-	•	Group size validation
-	•	Conversion rate comparison
-	•	Data quality checks
+		•	Group size validation
+		•	Conversion rate comparison
+		•	Data quality checks
 	2.	Hypothesis Formulation
-	•	Null hypothesis (H₀): Conversion rate is the same for ad and PSA groups
-	•	Alternative hypothesis (H₁): Conversion rates differ between the two groups
+		•	Null hypothesis: Conversion rate is the same for ad and PSA groups
+		•	Alternative hypothesis: Conversion rates differ between the two groups
 	3.	Statistical Testing
-	•	Two-proportion Z-test
-	•	95% confidence interval estimation for conversion lift
+		•	Two-proportion Z-test
+		•	95% confidence interval estimation for conversion lift
 	4.	Decision Criteria
-	•	Significance level α = 0.05
-	•	Both statistical and practical significance considered
+		•	Significance level 0.05
+		•	Both statistical and practical significance considered
 
 ## Key Results
 
 	•	Control (PSA) conversion rate: 1.79%
 	•	Treatment (Ad) conversion rate: 2.55%
-	•	Absolute conversion lift: 0.77 percentage points
+	•	Absolute conversion lift: 0.77%
 	•	Z-statistic: 7.37
 	•	p-value: < 0.000000000001
 	•	95% Confidence Interval for lift: (0.60%, 0.94%)
