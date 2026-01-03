@@ -45,7 +45,7 @@ The analysis follows a standard A/B testing framework:
 	•	p-value: < 0.000000000001
 	•	95% Confidence Interval for lift: (0.60%, 0.94%)
 
-## Interpretation: 
+## Interpretation
 Users exposed to advertisements converted at a statistically significantly higher rate than those shown a PSA. The probability that this difference occurred due to random chance is effectively zero.
 
 ## Business Recommendation
